@@ -1,0 +1,80 @@
+*,
+::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-size: 0;
+}
+
+.aufgabe1 {
+    height: 71vw;
+    width: 71vw;
+    border: .5vw solid rgb(255,105,180);
+}
+
+.aufgabe1::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.aufgabe1 div[class^="con"] {
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    float:left;
+    background-color: rgb(127,255,1);
+}
+
+.container-1{
+    margin-top: 75%;
+    border: .5vw solid #777;
+}
+.container-2{
+    margin-top: 50%;
+}
+.container-3{
+    margin-top: 25%;
+    border: .5vw solid #777;
+}
+
+.aufgabe1{
+    margin-bottom: 50px;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+.aufgabe2 {
+    height: 85.3rem;
+    width: 85.3rem;
+    border: .6rem solid rgb(255,105,180);
+}
+
+
+.aufgabe2 .container{
+    display: inline-block;
+    width: 21rem;
+    height: 21rem;
+    background-color: rgb(255,255,2);
+    border: .5vw solid rgb(255,99,72);
+    padding: 1rem; /* ohne padding hier meckert der code buddy */
+}
+
+.helper{
+    display: inline-block;
+    width: 21rem;
+    height: 21rem;
+    background-color: rgb(255,0,0);
+} 
+
+.helper-div-7 {
+    padding-right: 42rem ;
+}
+
+.helper-div-8 {
+    padding-right: 63rem;
+}
